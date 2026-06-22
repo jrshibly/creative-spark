@@ -40,10 +40,10 @@ Look for the comments `<!-- UPDATE: ... -->` inside the `<section id="contact">`
 
 ```html
 <!-- UPDATE: Change phone number below -->
-<a href="tel:+2348012345678">+234 801 234 5678</a>
+<a href="tel:+8801819902545">+880 181 990 2545</a>
 
 <!-- UPDATE: Change email address below -->
-<a href="mailto:hello@creativespark.ng">hello@creativespark.ng</a>
+<a href="mailto:info.creativespark@gmail.com">info.creativespark@gmail.com</a>
 
 <!-- UPDATE: Change address below -->
 <span>12 Victoria Island Boulevard,<br>Lagos, Nigeria</span>
