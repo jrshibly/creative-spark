@@ -878,7 +878,7 @@ em { font-style: italic; color: var(--gold); }
 .footer-logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 1px;
 }
 .footer-copy {
   font-size: 0.78rem;
