@@ -173,7 +173,7 @@ em { font-style: italic; color: var(--gold); }
 }
 .logo-text {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.95rem;
+  font-size: 0.95rem;
   line-height: 1.25;
   color: var(--white);
   font-weight: 400;
