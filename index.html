@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creative Spark — Event Management</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- Lucide Icons via CDN -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <span class="logo-cs">CS</span>
+        <span class="logo-text">Creative<br><em>Spark</em></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#process" class="nav-link">Process</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-grid">
+      <div class="hero-img hero-img-1"></div>
+      <div class="hero-img hero-img-2"></div>
+      <div class="hero-img hero-img-3"></div>
+      <div class="hero-img hero-img-4"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">— Crafted. Curated. Celebrated.</p>
+      <h1 class="hero-headline reveal">
+        Turning Ideas Into<br><em>Unforgettable</em><br>Experiences
+      </h1>
+      <p class="hero-sub reveal">
+        Creative Spark is an event management firm specialising in corporate events,
+        conferences, weddings, brand activations, and private celebrations.
+      </p>
+      <div class="hero-buttons reveal">
+        <a href="#portfolio" class="btn btn-gold">View Portfolio</a>
+        <a href="#contact" class="btn btn-outline">Contact Us</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== STATS BAND ===== -->
+  <section class="stats-band">
+    <div class="container stats-grid">
+      <div class="stat-item">
+        <span class="stat-num" data-target="320">0</span><span class="stat-sym">+</span>
+        <p class="stat-label">Events Delivered</p>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="12">0</span><span class="stat-sym">+</span>
+        <p class="stat-label">Years of Excellence</p>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="98">0</span><span class="stat-sym">%</span>
+        <p class="stat-label">Client Satisfaction</p>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="40">0</span><span class="stat-sym">+</span>
+        <p class="stat-label">Brand Partners</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section about" id="about">
+    <div class="container about-grid">
+      <div class="about-images reveal-left">
+        <div class="about-img-main"></div>
+        <div class="about-img-accent">
+          <span class="accent-quote">"Every event<br>is a story<br>we tell."</span>
+        </div>
+      </div>
+      <div class="about-content reveal-right">
+        <p class="section-eyebrow">About Creative Spark</p>
+        <h2 class="section-title">We Transform<br>Moments Into<br><em>Memories</em></h2>
+        <p class="about-body">
+          Founded in 2012, Creative Spark was born from a simple belief: every gathering
+          deserves intention. We are a full-service event management firm that blends
+          creative vision with meticulous planning to produce events that linger long
+          after the last guest has left.
+        </p>
+        <p class="about-body">
+          From an intimate boardroom dinner to a 2,000-person conference, our team
+          of dedicated producers, designers, and coordinators treats every brief as a
+          chance to craft something genuinely extraordinary.
+        </p>
+        <ul class="about-pillars">
+          <li><i data-lucide="check-circle"></i> Bespoke event design & concept development</li>
+          <li><i data-lucide="check-circle"></i> End-to-end production & logistics</li>
+          <li><i data-lucide="check-circle"></i> Vendor sourcing & on-day management</li>
+          <li><i data-lucide="check-circle"></i> Post-event reporting & follow-up</li>
+        </ul>
+        <a href="#contact" class="btn btn-gold">Start a Conversation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="section services dark-section" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow light">What We Do</p>
+        <h2 class="section-title light">Our <em>Services</em></h2>
+        <p class="section-sub light">
+          From concept to curtain call, we orchestrate every detail with precision and passion.
+        </p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card reveal">
+          <div class="service-icon"><i data-lucide="briefcase"></i></div>
+          <h3>Corporate Events</h3>
+          <p>Annual dinners, award ceremonies, team-building retreats, and executive off-sites designed to inspire and align your organisation.</p>
+          <span class="service-num">01</span>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon"><i data-lucide="mic"></i></div>
+          <h3>Conferences &amp; Seminars</h3>
+          <p>Multi-track conferences, thought leadership summits, and industry seminars executed with flawless AV, branding, and delegate management.</p>
+          <span class="service-num">02</span>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon"><i data-lucide="heart"></i></div>
+          <h3>Weddings</h3>
+          <p>Bespoke ceremonies and receptions that capture your love story — from intimate elopements to grand celebrations of 500+ guests.</p>
+          <span class="service-num">03</span>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon"><i data-lucide="rocket"></i></div>
+          <h3>Product Launches</h3>
+          <p>High-impact launch events that generate buzz, secure media coverage, and introduce your product to the world with maximum effect.</p>
+          <span class="service-num">04</span>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon"><i data-lucide="zap"></i></div>
+          <h3>Brand Activations</h3>
+          <p>Immersive, interactive experiences that deepen the relationship between your brand and its audience — online, offline, and everywhere between.</p>
+          <span class="service-num">05</span>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon"><i data-lucide="star"></i></div>
+          <h3>Private Events</h3>
+          <p>Milestone birthdays, private galas, and bespoke celebrations — crafted with the care and discretion that special occasions demand.</p>
+          <span class="service-num">06</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PORTFOLIO ===== -->
+  <section class="section portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Our Work</p>
+        <h2 class="section-title">Portfolio &amp; <em>Gallery</em></h2>
+        <p class="section-sub">A curated selection of moments we have been proud to shape.</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="filter-tabs reveal">
+        <button class="filter-btn active" data-filter="all">All Events</button>
+        <button class="filter-btn" data-filter="corporate">Corporate</button>
+        <button class="filter-btn" data-filter="wedding">Weddings</button>
+        <button class="filter-btn" data-filter="launch">Launches</button>
+        <button class="filter-btn" data-filter="private">Private</button>
+      </div>
+
+      <div class="portfolio-grid" id="portfolioGrid">
+
+        <div class="portfolio-card reveal" data-category="corporate">
+          <div class="portfolio-img pi-1">
+            <div class="portfolio-overlay">
+              <p class="po-cat">Corporate Event</p>
+              <h3 class="po-title">Pinnacle Awards Gala 2024</h3>
+              <p class="po-desc">500-guest black-tie gala for a Fortune 500 client at The Grand Ballroom, featuring live orchestral entertainment and custom lighting design.</p>
+              <span class="po-tag">Corporate</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-card reveal" data-category="wedding">
+          <div class="portfolio-img pi-2">
+            <div class="portfolio-overlay">
+              <p class="po-cat">Wedding</p>
+              <h3 class="po-title">The Adeyemi Celebration</h3>
+              <p class="po-desc">A three-day wedding weekend in Tuscany for 300 guests — from welcome dinner to grand reception, every moment curated to perfection.</p>
+              <span class="po-tag">Wedding</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-card reveal" data-category="launch">
+          <div class="portfolio-img pi-3">
+            <div class="portfolio-overlay">
+              <p class="po-cat">Product Launch</p>
+              <h3 class="po-title">Nova X — Global Reveal</h3>
+              <p class="po-desc">International simultaneous product reveal across Lagos, London, and Dubai, generating over 2M social impressions within 48 hours.</p>
+              <span class="po-tag">Launch</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-card reveal" data-category="corporate">
+          <div class="portfolio-img pi-4">
+            <div class="portfolio-overlay">
+              <p class="po-cat">Conference</p>
+              <h3 class="po-title">TechSummit West Africa 2024</h3>
+              <p class="po-desc">2,200-delegate, three-day technology conference featuring 60+ speakers, 12 breakout sessions, and an integrated hybrid broadcast.</p>
+              <span class="po-tag">Corporate</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-card reveal" data-category="private">
+          <div class="portfolio-img pi-5">
+            <div class="portfolio-overlay">
+              <p class="po-cat">Private Event</p>
+              <h3 class="po-title">The Golden Jubilee</h3>
+              <p class="po-desc">An intimate 50th birthday celebration at a private estate — custom floral installations, a bespoke menu, and a surprise live performance.</p>
+              <span class="po-tag">Private</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-card reveal" data-category="launch">
+          <div class="portfolio-img pi-6">
+            <div class="portfolio-overlay">
+              <p class="po-cat">Brand Activation</p>
+              <h3 class="po-title">Lumière Pop-Up Experience</h3>
+              <p class="po-desc">A weeklong immersive retail pop-up blending digital installations and physical storytelling for a luxury skincare brand's market entry.</p>
+              <span class="po-tag">Launch</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS ===== -->
+  <section class="section process dark-section" id="process">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow light">How We Work</p>
+        <h2 class="section-title light">Our <em>Process</em></h2>
+        <p class="section-sub light">A proven four-stage approach that turns your vision into flawless execution.</p>
+      </div>
+      <div class="process-track">
+        <div class="process-line"></div>
+
+        <div class="process-step reveal">
+          <div class="ps-bubble">
+            <i data-lucide="lightbulb"></i>
+          </div>
+          <div class="ps-content">
+            <span class="ps-num">Phase 01</span>
+            <h3>Discover &amp; Define</h3>
+            <p>We begin with a deep-dive consultation to understand your goals, audience, brand voice, and vision. No template — every brief is taken on its own terms.</p>
+          </div>
+        </div>
+
+        <div class="process-step reveal">
+          <div class="ps-bubble">
+            <i data-lucide="pen-tool"></i>
+          </div>
+          <div class="ps-content">
+            <span class="ps-num">Phase 02</span>
+            <h3>Design &amp; Concept</h3>
+            <p>Our creative team develops mood boards, event concepts, and detailed production plans — giving you a vivid picture of the experience before a single chair is placed.</p>
+          </div>
+        </div>
+
+        <div class="process-step reveal">
+          <div class="ps-bubble">
+            <i data-lucide="settings"></i>
+          </div>
+          <div class="ps-content">
+            <span class="ps-num">Phase 03</span>
+            <h3>Produce &amp; Execute</h3>
+            <p>From vendor briefings and logistics to on-site production management, we handle every moving part so you can be fully present on the day.</p>
+          </div>
+        </div>
+
+        <div class="process-step reveal">
+          <div class="ps-bubble">
+            <i data-lucide="bar-chart-2"></i>
+          </div>
+          <div class="ps-content">
+            <span class="ps-num">Phase 04</span>
+            <h3>Review &amp; Report</h3>
+            <p>After every event we deliver a comprehensive post-event report — attendance data, guest feedback, media coverage, and learnings for next time.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">What Clients Say</p>
+        <h2 class="section-title">Words That <em>Matter</em></h2>
+      </div>
+      <div class="testimonials-carousel">
+        <div class="testi-track" id="testiTrack">
+
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <blockquote>
+              "Creative Spark didn't just plan our annual gala — they redefined what we thought our brand could feel like. Our guests are still talking about it six months later. The level of care and creativity is simply unmatched."
+            </blockquote>
+            <div class="testi-author">
+              <div class="testi-avatar ta-1"></div>
+              <div>
+                <strong>Adaeze Okonkwo</strong>
+                <span>Chief Marketing Officer, Meridian Group</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <blockquote>
+              "We handed Creative Spark an ambitious brief with a tight timeline and they delivered beyond every expectation. TechSummit ran like clockwork — the production quality rivalled anything I've seen at international conferences."
+            </blockquote>
+            <div class="testi-author">
+              <div class="testi-avatar ta-2"></div>
+              <div>
+                <strong>Emeka Nwosu</strong>
+                <span>Founder & CEO, Vantage Technologies</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-card">
+            <div class="testi-stars">★★★★★</div>
+            <blockquote>
+              "Our wedding was a dream — not the vague kind, but a dream with every detail accounted for. Creative Spark listened to who we are and built an experience that was unmistakably ours. We couldn't have trusted anyone more."
+            </blockquote>
+            <div class="testi-author">
+              <div class="testi-avatar ta-3"></div>
+              <div>
+                <strong>Fatima &amp; James Adeyemi</strong>
+                <span>Private Wedding Clients</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="testi-controls">
+          <button class="testi-prev" id="testiPrev" aria-label="Previous"><i data-lucide="arrow-left"></i></button>
+          <div class="testi-dots" id="testiDots">
+            <span class="testi-dot active"></span>
+            <span class="testi-dot"></span>
+            <span class="testi-dot"></span>
+          </div>
+          <button class="testi-next" id="testiNext" aria-label="Next"><i data-lucide="arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section contact dark-section" id="contact">
+    <div class="container contact-grid">
+
+      <div class="contact-info reveal-left">
+        <p class="section-eyebrow light">Get In Touch</p>
+        <h2 class="section-title light">Let's Create<br><em>Something</em><br>Together</h2>
+        <p class="contact-body">
+          Ready to start planning? Send us a message and one of our senior producers
+          will be in touch within 24 hours.
+        </p>
+        <ul class="contact-details">
+          <li>
+            <i data-lucide="phone"></i>
+            <!-- UPDATE: Change phone number below -->
+            <a href="tel:+2348012345678">+234 801 234 5678</a>
+          </li>
+          <li>
+            <i data-lucide="mail"></i>
+            <!-- UPDATE: Change email address below -->
+            <a href="mailto:hello@creativespark.ng">hello@creativespark.ng</a>
+          </li>
+          <li>
+            <i data-lucide="map-pin"></i>
+            <!-- UPDATE: Change address below -->
+            <span>12 Victoria Island Boulevard,<br>Lagos, Nigeria</span>
+          </li>
+        </ul>
+        <div class="social-icons">
+          <!-- UPDATE: Replace # with your actual social media URLs -->
+          <a href="#" class="social-btn" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+          <a href="#" class="social-btn" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+          <a href="#" class="social-btn" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+          <a href="#" class="social-btn" aria-label="Twitter/X"><i data-lucide="twitter"></i></a>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap reveal-right">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First Name *</label>
+              <input type="text" id="fname" name="fname" placeholder="Jane" required />
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name *</label>
+              <input type="text" id="lname" name="lname" placeholder="Doe" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="jane@company.com" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+234 800 000 0000" />
+          </div>
+          <div class="form-group">
+            <label for="eventType">Event Type</label>
+            <select id="eventType" name="eventType">
+              <option value="" disabled selected>Select event type…</option>
+              <option>Corporate Event</option>
+              <option>Conference / Seminar</option>
+              <option>Wedding</option>
+              <option>Product Launch</option>
+              <option>Brand Activation</option>
+              <option>Private Event</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Tell Us About Your Event *</label>
+            <textarea id="message" name="message" rows="5" placeholder="Date, guest count, vision, budget range…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold btn-full">Send Message <i data-lucide="send"></i></button>
+          <p class="form-success" id="formSuccess">Thank you — we'll be in touch within 24 hours.</p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="footer-logo">
+        <span class="logo-cs">CS</span>
+        <span class="logo-text">Creative<br><em>Spark</em></span>
+      </a>
+      <p class="footer-copy">
+        © <span id="footerYear"></span> Creative Spark Event Management. All rights reserved.
+      </p>
+      <nav class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top -->
+  <button class="scroll-top" id="scrollTop" aria-label="Back to top">
+    <i data-lucide="chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
