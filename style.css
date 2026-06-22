@@ -159,8 +159,8 @@ em { font-style: italic; color: var(--gold); }
   gap: 10px;
 }
 .logo-cs {
-  width: 40px;
-  height: 40px;
+  width: 10px;
+  height: 10px;
   background: var(--gold);
   color: var(--black);
   font-family: 'Cormorant Garamond', serif;
@@ -878,7 +878,7 @@ em { font-style: italic; color: var(--gold); }
 .footer-logo {
   display: flex;
   align-items: center;
-  gap: 1px;
+  gap: 10px;
 }
 .footer-copy {
   font-size: 0.78rem;
