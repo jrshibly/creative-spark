@@ -157,6 +157,18 @@ em { font-style: italic; color: var(--gold); }
   display: flex;
   align-items: center;
   gap: 10px;
+  background: rgba(26, 26, 26, 0.7);
+  padding: 8px 12px;
+  border-radius: 8px;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(201, 168, 76, 0.25);
+  transition: all 0.3s;
+}
+
+.nav-logo:hover {
+  background: rgba(26, 26, 26, 0.95);
+  border-color: rgba(201, 168, 76, 0.4);
+  box-shadow: 0 4px 12px rgba(201, 168, 76, 0.15);
 }
 
 .nav-logo-img {
@@ -1046,6 +1058,7 @@ em { font-style: italic; color: var(--gold); }
 
   .nav-inner { height: 60px; }
   .navbar { padding: 0 20px; }
+  .nav-logo { padding: 6px 10px; }
   .nav-logo-img { height: 40px; }
 
   .btn { padding: 12px 28px; font-size: 0.65rem; }
