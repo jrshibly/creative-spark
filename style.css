@@ -570,15 +570,13 @@ em { font-style: italic; color: var(--gold); }
 .portfolio-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(10,10,10,0.92) 0%, rgba(10,10,10,0.2) 60%, transparent 100%);
+  background: linear-gradient(to top, rgba(10,10,10,0.92) 0%, rgba(10,10,10,0.35) 60%, rgba(10,10,10,0.05) 100%);
   padding: 28px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  opacity: 0;
-  transition: opacity 0.4s;
+  opacity: 1;
 }
-.portfolio-card:hover .portfolio-overlay { opacity: 1; }
 
 .po-cat {
   font-size: 0.62rem;
