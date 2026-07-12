@@ -164,6 +164,19 @@ em { font-style: italic; color: var(--gold); }
   flex-shrink: 0;
   display: block;
 }
+.logo-cs {
+  width: 40px;
+  height: 40px;
+  background: var(--gold);
+  color: var(--black);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
 .logo-text {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.35rem;
