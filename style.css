@@ -170,6 +170,7 @@ em { font-style: italic; color: var(--gold); }
   line-height: 1.2;
   color: var(--white);
   font-weight: 700;
+  white-space: nowrap;
 }
 .logo-text em { font-style: italic; color: var(--gold); font-weight: 700; }
 
