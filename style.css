@@ -550,20 +550,16 @@ em { font-style: italic; color: var(--gold); }
 .portfolio-card:hover .portfolio-img { transform: scale(1.07); }
 
 /* Portfolio placeholder images */
-.pi-1 { background: linear-gradient(135deg, #1a1208 0%, #3d2b0f 50%, #6b4a20 100%); }
 .pi-2 { background: linear-gradient(135deg, #0e1818 0%, #1e3030 50%, #2e4848 100%); }
 .pi-3 { background: linear-gradient(135deg, #180e14 0%, #301e28 50%, #483040 100%); }
-.pi-4 { background: linear-gradient(135deg, #0a100e 0%, #1a2820 50%, #2a3e30 100%); }
 .pi-5 { background: linear-gradient(135deg, #180e0e 0%, #301a1a 50%, #482828 100%); }
 .pi-6 { background: linear-gradient(135deg, #10100e 0%, #222018 50%, #343028 100%); }
-.pi-7 { background: linear-gradient(135deg, #0e1420 0%, #1c2c3d 50%, #2c4258 100%); }
-.pi-8 { background: linear-gradient(135deg, #1a1004 0%, #3d240f 50%, #6b3e14 100%); }
-.pi-9 { background: linear-gradient(135deg, #14100a 0%, #2c2418 50%, #443826 100%); }
+.pi-corporate { background: linear-gradient(135deg, #050505 0%, #14100a 45%, #241a0c 100%); }
 
 /* Visual variety: add gold diagonal accent to each card */
-.pi-1::after, .pi-2::after, .pi-3::after,
-.pi-4::after, .pi-5::after, .pi-6::after,
-.pi-7::after, .pi-8::after, .pi-9::after {
+.pi-2::after, .pi-3::after,
+.pi-5::after, .pi-6::after,
+.pi-corporate::after {
   content: '';
   position: absolute;
   bottom: 0; right: 0;
@@ -957,6 +953,7 @@ em { font-style: italic; color: var(--gold); }
 .portfolio-grid .portfolio-card:nth-child(7) { transition-delay: 0.35s; }
 .portfolio-grid .portfolio-card:nth-child(8) { transition-delay: 0.4s; }
 .portfolio-grid .portfolio-card:nth-child(9) { transition-delay: 0.45s; }
+.portfolio-grid .portfolio-card:nth-child(10) { transition-delay: 0.5s; }
 
 /* ---------- RESPONSIVE ---------- */
 @media (max-width: 1024px) {
