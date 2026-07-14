@@ -687,6 +687,7 @@ em { font-style: italic; color: var(--gold); }
 .testi-track {
   display: flex;
   overflow: hidden;
+  width: 100%;
 }
 .testi-card {
   flex: 0 0 100%;

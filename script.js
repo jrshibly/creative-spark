@@ -183,8 +183,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function goToSlide(idx) {
     currentIdx = (idx + cards.length) % cards.length;
-    if (track) {
-      track.style.transform = `translateX(-${currentIdx * 100}%)`;
+    if (track && cards.length) {
+      const slideWidth = track.parentElement.getBoundingClientRect().width;
+      track.style.transform = `translateX(-${currentIdx * slideWidth}px)`;
       track.style.transition = 'transform 0.55s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
     }
     dots.forEach((d, i) => d.classList.toggle('active', i === currentIdx));
@@ -211,6 +212,7 @@ document.addEventListener('DOMContentLoaded', () => {
       c.style.minWidth = '0';
     });
     startAuto();
+    window.addEventListener('resize', () => goToSlide(currentIdx));
   }
 
   // Touch / swipe support
