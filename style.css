@@ -159,7 +159,7 @@ em { font-style: italic; color: var(--gold); }
   gap: 10px;
 }
 .logo-img {
-  height: 42px;
+  height: 60px;
   width: auto;
   flex-shrink: 0;
   display: block;
